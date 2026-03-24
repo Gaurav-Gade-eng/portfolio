@@ -1,112 +1,165 @@
-# Portfolio V5  
-Hello everyone!  
-Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+# 🚀 Gaurav Gade Portfolio
 
-**Tech Stack used:**  
-- ReactJS  
-- Tailwind CSS  
-- AOS  
-- Firebase  
-- Framer Motion  
-- Lucide  
-- Material UI  
-- SweetAlert2  
-
-**Website Link:**  
-
-We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
+Hello everyone! 👋
+I’m **Gaurav Gade**, a passionate Web Developer.
+This is my personal portfolio website showcasing my projects, certifications, and technical skills.
 
 ---
 
-# Tutorial: Running the Project  
+## 🌐 Live Website
 
-Here’s a simple guide to run this project.  
-
-## Prerequisites  
-
-Ensure that you have already installed:  
-- **Node.js**  
+👉 https://gaurav-portfolio.duckdns.org
 
 ---
 
-## Steps to Run the Project  
+## 🛠 Tech Stack
 
-1. **Download this project:**  
-
-   ```bash  
-   git clone https://github.com/EkiZR/Portofolio_V5.git  
-   ```  
-
-2. **Install all dependencies:**  
-
-   ```bash  
-   npm install  
-   ```  
-   Or use:  
-
-   ```bash  
-   npm install --legacy-peer-deps  
-   ```  
-
-3. **Run the project:**  
-
-   ```bash  
-   npm run dev  
-   ```  
-
-4. **Open in browser:**  
-
-   Access the application through the link displayed in your terminal.  
+* React JS
+* Tailwind CSS
+* Firebase (Firestore)
+* AOS (Animations)
+* Material UI
+* Lucide Icons
+* JavaScript (ES6+)
+* Node.js & Express (Backend Projects)
+* MongoDB
 
 ---
 
-## Creating a Production Build  
+## ✨ Features
 
-To create a production-ready build:  
-
-1. Run the build command:  
-
-   ```bash  
-   npm run build  
-   ```  
-
-2. The build files will be saved in the `dist` folder. You can upload this folder to your hosting server.  
+* 🔥 Modern UI with animations
+* 📁 Dynamic projects from Firebase
+* 🏆 Certificates section with preview modal
+* 🧠 Tech stack showcase
+* 📱 Fully responsive design
+* 🌐 Deployed on Render
 
 ---
 
-## Notes  
+## 📦 Installation & Setup
 
-If you encounter issues while running the project, ensure that:  
-- Node.js is correctly installed.  
-- You’re in the correct project directory.  
-- All dependencies are installed without errors.  
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Gaurav-Gade-eng/portfolio.git
+```
 
 ---
 
-## Firebase Configuration  
+### 2️⃣ Install dependencies
 
-To configure Firebase for this project, follow these steps:  
+```bash
+npm install
+```
 
-1. **Add Firebase to the Project:**  
-   - Go to the [Firebase Console](https://console.firebase.google.com/).  
-   - Create a new project or use an existing one.  
+---
 
-2. **Enable Firestore Database:**  
-   - Create a database.  
+### 3️⃣ Run the project
 
-3. **Go to Project Settings:**  
-   - Click the settings icon.  
-   - Copy the Firebase configuration.  
+```bash
+npm run dev
+```
 
-4. **Go to Rules:**  
-   - Set the rules to `true`.  
+---
 
-5. **Adjust the Collection Structure:**  
-   - Set up the collections as shown in the following images:  
+### 4️⃣ Open in browser
 
-   ![Collection Structure Example 1](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)  
-   ![Collection Structure Example 2](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)  
+```
+http://localhost:5173
+```
 
-6. **Update `firebase.js` and `firebase-comment.js` Files:**  
-   - Replace the `firebaseConfig` content with your Firebase configuration.  
+---
 
+## 🏗 Build for Production
+
+```bash
+npm run build
+```
+
+👉 Output will be generated in:
+
+```
+dist/
+```
+
+---
+
+## 🔥 Firebase Configuration
+
+1. Go to 👉 https://console.firebase.google.com/
+2. Create a project
+3. Enable **Firestore Database**
+4. Copy Firebase config
+
+---
+
+### Update your `firebase.js` file:
+
+```js
+const firebaseConfig = {
+  apiKey: "YOUR_KEY",
+  authDomain: "YOUR_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_BUCKET",
+  messagingSenderId: "YOUR_ID",
+  appId: "YOUR_APP_ID"
+};
+```
+
+---
+
+### 📁 Firestore Collections
+
+#### 🔹 projects
+
+```js
+Title
+Description
+Img
+Link
+TechStack (array)
+```
+
+#### 🔹 certificates
+
+```js
+Img
+```
+
+---
+
+## 📌 Notes
+
+* Images must be stored inside:
+
+```
+public/images/
+```
+
+* Use correct path:
+
+```js
+/images/your-image.png
+```
+
+❌ Do NOT use:
+
+```
+/public/images/...
+```
+
+---
+
+## 🙌 Credits
+
+Inspired by open-source portfolio designs.
+Customized and developed by **Gaurav Gade** 🚀
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+---
